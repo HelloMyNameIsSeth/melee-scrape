@@ -1,0 +1,10 @@
+Script to access a melee.gg webpage and output the results into a xls document. 
+
+When the script accesses data it takes from the matches and not from the standing. Does this as not all melee events get recorded / finished. 
+
+1. Install packages
+2. Create a list of melee usernames (case sensitive) and place them in output.txt. See output as example. 
+3. Update the 'ID' field with the melee id in the link 
+    - In this example 'ID' = 00000 https://melee.gg/Tournament/View/00000 
+4. Depending on the number of rounds it will take about 20 - 30 seconds. It has been rate limited. 
+5. xls output will generate. 
